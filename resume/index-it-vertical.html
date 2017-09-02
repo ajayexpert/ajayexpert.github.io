@@ -628,7 +628,7 @@
 		<section id="contact" class="section padding-v-60 min-fullheight">
 
 			<!-- BG Map -->
-			<div id="google-map" class="bg-image" data-latitude="40.758895" data-longitude="-73.985131" data-style="light"></div>
+			<div id="google-map" class="bg-image" data-latitude="28.6994998" data-longitude="77.0823546" data-style="light"></div>
 
 			<!-- Contact Box -->
 			<div class="contact-box bg-secondary dark animated" data-animation="flipInY">
@@ -668,7 +668,16 @@
 				<img src="assets/img/photos/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30">
 				<h3>Please fill the <strong>form</strong> - I will response as fast as I can!</h3>
 				<!-- Contact Form -->
-				<form id="contact-form">
+				<form method="POST" id="contact-form" action="https://formspree.io/ajay.expert@live.com" >
+					
+					<div class="form-alert-msg" hidden>
+						<div class="alert alert-success">Done! Thank you for your message - You will get an answer as soon as possible.</div>
+					</div>
+
+					<div class="form-error-msg" hidden>
+						<div class="alert alert-success">Done! Thank you for your message - You will get an answer as soon as possible.</div>
+					</div>
+
 					<div class="form-alert"></div>
 					<div class="form-error alert alert-default"><ul></ul></div>
 					<div class="form-group">
@@ -707,15 +716,6 @@
 			<li><a href="#contact"><span>Contact</span></a></li>
 			<li><a href="/documentation" target="_blank"><span>Documentation</span></a></li>
 		</ul>
-		<!-- Social Media -->
-		<div class="margin-t-20">
-			<strong class="text-sm">Follow me!</strong>
-			<ul class="list-inline margin-t-10">
-				<li><a href="#" class="icon icon-xs"><i class="fa fa-facebook text-muted"></i></a></li>
-				<li><a href="#" class="icon icon-xs"><i class="fa fa-twitter text-muted"></i></a></li>
-				<li><a href="#" class="icon icon-xs"><i class="fa fa-google-plus text-muted"></i></a></li>
-			</ul>
-		</div>
 	</div>
 	<a href="#" class="mobile-nav-close icon icon-hover icon-xs icon-circle icon-primary" data-target="mobile-nav"><i class="fa fa-times"></i></a>
 </nav>
@@ -734,16 +734,16 @@ window.paceOptions = {
 	ajax: false
 };
 </script>
+
 <script src="assets/js/plugins.js"></script>
 
 <!-- JS Core -->
 <script src="assets/js/core.min.js"></script>
 
-<!-- Google Map API -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-
-<!-- Styleswitcher -->
 <script src="assets/styleswitcher/styleswitcher.js"></script>
+
+<!-- Google Map API -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyC-IDStnRaA8ueCCENLDL_s0nCzehhTrF0"></script>
 
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
 <!--
