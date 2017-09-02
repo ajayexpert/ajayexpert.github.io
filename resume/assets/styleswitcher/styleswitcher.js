@@ -27,6 +27,7 @@ $(document).ready(function() {
 		})
 	
 		$('#style-switcher .ss-toggle').click(function(){
+			alert('working');
 			var div = $('#style-switcher');
 			if (div.css('right') === '-175px') {
 				$('#style-switcher').animate({
