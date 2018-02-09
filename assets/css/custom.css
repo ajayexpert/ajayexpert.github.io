@@ -1,0 +1,6 @@
+.m-top-3{ margin-top: 3px; }
+.m-top-5{ margin-top: 5px; }
+.text-inter-justify{
+  text-align: justify;
+  /*text-justify: inter-word;*/
+}
